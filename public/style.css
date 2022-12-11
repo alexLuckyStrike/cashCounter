@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:lightblue;
+    box-sizing: border-box;
+    padding-top: 150px;
+}
+
+
+.main-content{
+    width:80%;
+    min-height: 300px;
+    margin:auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-pic{
+    min-width:300px;
+    height: 300px;
+
+    border-radius:50%;
+}
+
+.sechin{
+
+    background: url("images/Sechin.png") no-repeat center;
+    background-size: 100%;
+
+}
+
+.chemezov{
+
+    background: url("images/chemezov.jpg") no-repeat center;
+    background-size: 100%;
+
+}
+
+.kostin{
+
+    background: url("images/kostin.png") no-repeat center;
+    background-size: 100%;
+}
+
+.cash-counter{
+    width: 80%;
+    min-height: 300px;
+
+    margin:40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter-box{
+    width:350px;
+    height: 300px;
+
+    text-align: center;
+    font-family:"Arial",sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
